@@ -6,11 +6,107 @@
 body, html {
     width: 100%;
     height: 100%;
-    max-width: 1100px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+nav {
+    height: 4vh;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #2A2A2A;
+}
+
+nav ul {
+    display: table;
+    white-space: nowrap;
+}
+  
+nav li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Alef', sans-serif;
+}
+
+.project-name {
+    font-family: 'Anton', sans-serif;
+}
+
+.project-description {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.intro-section {
+    height: 50vh;
+    background-image: url("https://i.imgur.com/6FST3Ru.png");
+}
+
+
+.introtext-section {
+    height: 45vh;
+}
+
+.introtext-section h5 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.introtext-section a{
+   text-decoration: none;
+   color: #2A2A2A;
+   font-family: 'Questrial', sans-serif;
+   border: 2px solid #2A2A2A;
+   padding: 8px;
+}
+
+.bio-section {
+    display: flex;
+}
+
+.about-me {
+    height: 80vh;
+    padding-left: 5vw;
+    width: 60%;
+    margin-top: 20vh;
+}
+
+.skills-panel {
+    width: 40%;
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.skills-panel li {
+    list-style-type: none;
+    font-size: 1em;
+    font-family: 'Basic', sans-serif;
+}
+
+.technologies-text {
+    font-size: 2em;
+    font-family: 'Questrial', sans-serif;
+}
+
+.about-me p {
+    font-size: 2em;
+    font-family: 'Questrial', sans-serif;
+}
+.projects-section {
+    text-align: center;
 }
 
 .project {
-    width: 30%;
+    width: 40%;
     height: 300px;
     display: inline-block;
     position: relative;
@@ -37,6 +133,51 @@ body, html {
     transition: .3s;
 }
 
+.project h3 {
+    top: 50%;
+}
+
 .project:hover :not(img) {
     opacity: 1;
+}
+
+.contact-content {
+    text-align: center;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.contact-content img{
+    width: 40px;
+    height: 25px;
+    margin: 15px;
+}
+
+.main-intro-text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+.second-intro-text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.blue-text {
+    color: #4476E2;
+}
+
+.landing-page-divider {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-content {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projects-text {
+    font-family: 'Montserrat', sans-serif;
 }

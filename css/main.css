@@ -12,30 +12,61 @@ main {
     margin: 0 auto;
 }
 
+
 nav {
     height: 4vh;
-    padding: 10px;
+    padding: 20px;
     font-size: 1em;
     text-align: center;
-    background-color: #2A2A2A;
 }
 
-nav ul {
-    display: table;
-    white-space: nowrap;
-}
   
 nav li {
-    display: table-cell;
+    display: inline;
     vertical-align: middle;
     padding: 0 10px;
     position: relative;
 }
 
-nav a{
+nav a {
+    display: inline-block;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #2A2A2A;
     font-family: 'Alef', sans-serif;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #2A2A2A;
+    color: white;
+}
+
+
+.about-me-link {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-me-link a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.about-me-link a::after {
+    content: "";
+    background: black;
+    mix-blend-mode: exclusion;
+    width: calc(100% + 20px);
+    height: 0;
+    position: absolute;
+    bottom: -4px;
+    left: -10px;
+    transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.about-me-link a:hover::after {
+    height: calc(100% + 8px);
 }
 
 .project-name {
@@ -48,25 +79,26 @@ nav a{
 
 .intro-section {
     height: 50vh;
-    background-image: url("https://i.imgur.com/6FST3Ru.png");
+    background-image: url("https://i.imgur.com/jCDx48z.png");
+    background-position: center;
+    opacity: .4;
 }
-
 
 .introtext-section {
     height: 45vh;
 }
 
-.introtext-section h5 {
-    text-align: center;
-    font-size: 1.5em;
-}
 
 .introtext-section a{
    text-decoration: none;
-   color: #2A2A2A;
    font-family: 'Questrial', sans-serif;
-   border: 2px solid #2A2A2A;
-   padding: 8px;
+   padding: 15px;
+   font-size: 1.5em;
+   border: 2px solid black;
+}
+
+.introtext-section a:hover {
+    color: white;
 }
 
 .bio-section {
@@ -89,7 +121,7 @@ nav a{
 .skills-panel li {
     list-style-type: none;
     font-size: 1em;
-    font-family: 'Basic', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 .technologies-text {
@@ -180,4 +212,20 @@ nav a{
 
 .projects-text {
     font-family: 'Montserrat', sans-serif;
+}
+
+.project-divider {
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2A2A2A;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
 }

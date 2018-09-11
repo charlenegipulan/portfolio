@@ -95,7 +95,7 @@ nav a:hover {
    font-family: 'Questrial', sans-serif;
    padding: 15px;
    font-size: 1.5em;
-   border: 2px solid black;
+   border: 2px solid #2A2A2A;
 }
 
 .introtext-section a:hover {
@@ -149,6 +149,7 @@ nav a:hover {
     width: 80%;
     height: 30vh;
     margin: 0 auto;
+    text-align: center;
 }
 
 .skills-panel li {
@@ -170,7 +171,7 @@ nav a:hover {
 }
 .projects-section {
     text-align: center;
-    height: 80vh;
+    height: 90vh;
 }
 
 .project {
@@ -209,15 +210,9 @@ nav a:hover {
     opacity: 1;
 }
 
-.contact-content {
-    text-align: center;
-    height: 10vh;
-    margin-top: 5vh;
-}
-
 .contact-content img{
-    width: 40px;
-    height: 25px;
+    width: 3vh;
+    height: 3vh;
     margin: 15px;
 }
 
@@ -244,6 +239,14 @@ nav a:hover {
 
 .contact-content {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F7F6F5;
+    height: 30vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.contact-content a {
+    text-decoration: none;
 }
 
 .projects-text {
@@ -255,13 +258,6 @@ nav a:hover {
     margin: 0 auto;
 }
 
-footer {
-    background-color: #2A2A2A;
-}
-
-footer p {
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: .8em;
+.contact-text {
+    color:#2A2A2A;
 }

@@ -8,6 +8,11 @@ body, html {
     height: 100%;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     height: 4vh;
     padding: 20px;
@@ -105,10 +110,11 @@ nav a:hover {
     width: 100%;
     height: 30vh;
     margin: 0 auto;
+    background-color: #F7F6F5;
 }
 
 .what-i-do-panel img {
-    width: 10vw;
+    width: 6vw;
     height: 10vh;
 }
 
@@ -147,6 +153,7 @@ nav a:hover {
     font-size: 1em;
     font-family: 'Questrial', sans-serif;
     display: inline;
+    margin: 10px;
 }
 
 .technologies-text {
@@ -161,7 +168,8 @@ nav a:hover {
 }
 .projects-section {
     text-align: center;
-    height: 90vh;
+    height: 100vh;
+    margin-bottom: 15vh;
 }
 
 .project {
@@ -201,8 +209,8 @@ nav a:hover {
 }
 
 .contact-content img{
-    width: 3vh;
-    height: 3vh;
+    width: 3.5vh;
+    height: 3.5vh;
     margin: 15px;
 }
 
@@ -210,6 +218,7 @@ nav a:hover {
     font-family: 'Questrial', sans-serif;
     font-size: 5em;
     text-align: center;
+    color: #444242;
 }
 
 .second-intro-text {
@@ -229,10 +238,10 @@ nav a:hover {
 
 .contact-content {
     font-family: 'Montserrat', sans-serif;
-    background-color: #F7F6F5;
+    background-color: #2A2A2A;
     height: 30vh;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .contact-content a {
@@ -249,7 +258,7 @@ nav a:hover {
 }
 
 .contact-text {
-    color:#2A2A2A;
+    color: #F3F0F0;
 }
 
 /* Media Queries */

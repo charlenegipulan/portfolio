@@ -378,3 +378,110 @@ nav a:hover {
         height: 80vh;
     }
 }
+
+@media screen and (max-width: 420px) {
+    body {
+        max-width: 420px;
+        height: 100%;
+    }
+
+    .introtext-section {
+        height: 70vh;
+    }
+
+    .bio-section {
+        width: 100%;
+    }
+
+    .what-i-do-panel {
+        display: inline-block;
+    }
+
+    .design-panel, .responsive-panel, .elegant-panel {
+        width: 80%;
+    }
+
+    .about-me {
+        height: 100vh;
+    }
+
+    .about-me p {
+        font-size: 7vw;
+    }
+
+    .introtext-section h1 {
+        font-size: 3em;
+    } 
+
+    .what-i-do-panel img {
+        width: 7vw;
+        height: 7vh;
+    }
+
+    .project {
+        display: block;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .contact-content {
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 768px;
+        height: 100%;
+    }
+
+    .introtext-section {
+        height: 50vh;
+    }
+
+    .bio-section {
+        width: 100%;
+    }
+
+    .what-i-do-panel {
+        display: inline-block;
+        height: 60vh;
+    }
+
+    .design-panel, .responsive-panel, .elegant-panel {
+        width: 80%;
+    }
+
+    .about-me {
+        height: 60vh;
+    }
+
+    .about-me p {
+        font-size: 5vw;
+    }
+
+    .skills-panel {
+        height: 30vh;
+    }
+
+    .introtext-section h1 {
+        font-size: 3em;
+    } 
+
+    .what-i-do-panel img {
+        width: 7vw;
+        height: 7vh;
+    }
+
+    .project {
+        display: block;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .contact-content {
+        width: 100%;
+        bottom: 0;
+    }
+}
